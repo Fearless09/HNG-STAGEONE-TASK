@@ -1,3 +1,4 @@
+- live URL: https://fearless09.github.io/HNG-STAGEONE-TASK/
 
 ## HNG Internship
 # FRONT-END TRACK | STAGE ONE TASK
@@ -8,8 +9,6 @@
 ##### Slack Name:
 - Display your Slack name prominently.
 - Attribute: data-testid="slackUserName"
-
-live URL: https://fearless09.github.io/HNG-STAGEONE-TASK/
 
 ##### Slack Display Picture:
 - Showcase your Slack profile picture.
