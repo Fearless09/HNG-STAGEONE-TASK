@@ -3,5 +3,5 @@ const daysOfTheWeek = ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', '
 document.querySelector('#days').textContent = daysOfTheWeek[new Date().getDay() - 1]
 
 setInterval(() => {
-    document.querySelector('#time').textContent = `${new Date().getTime()}ms`
+    document.querySelector('#time').textContent = `${new Date().getTime()}`
 }, 1);
