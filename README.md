@@ -9,6 +9,8 @@
 - Display your Slack name prominently.
 - Attribute: data-testid="slackUserName"
 
+live URL: https://fearless09.github.io/HNG-STAGEONE-TASK/
+
 ##### Slack Display Picture:
 - Showcase your Slack profile picture.
 - The image's alt attribute should be your Slack username.
