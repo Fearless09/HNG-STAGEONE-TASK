@@ -15,7 +15,7 @@ main {
     padding: 2rem 1rem;
 }
 
-img {
+.img-container img {
     width: 100%;
 }
 
@@ -23,6 +23,19 @@ h1 {
     margin-block: 0 2.5rem;
     font-size: 2rem;
     font-weight: 700;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+}
+
+h1 img {
+    width: 2.5rem;
+    aspect-ratio: 1 / 1;
+}
+
+h1 img:hover {
+    opacity: 0.75;
 }
 
 
@@ -52,7 +65,7 @@ h2#time {
     margin-top: 1rem;
 }
 
-main a {
+.source_code_link {
     padding: 0.75rem 1.5rem;
     text-transform: uppercase;
     font-family: sans-serif;
@@ -62,6 +75,6 @@ main a {
     background: black;
 }
 
-main a:hover {
+.source_code_link:hover {
     background: rgb(77, 75, 75);
 }
